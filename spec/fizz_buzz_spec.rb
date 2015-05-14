@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), '..', 'fizz_buzz')
+require_relative '../fizz_buzz.rb'
 
 describe 'fizzbuzz' do
 

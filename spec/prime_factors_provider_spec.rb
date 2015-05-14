@@ -1,5 +1,5 @@
 require 'prime'
-require File.join(File.dirname(__FILE__), '..', 'prime_factors_provider')
+require_relative '../prime_factors_provider.rb'
 
 describe PrimeFactorsProvider do
 
