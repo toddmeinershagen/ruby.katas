@@ -1,5 +1,5 @@
 require 'rspec/core/rake_task'
-require File.join(File.dirname(__FILE__), '.', 'elend_rate_checker')
+require './elend_rate_checker.rb'
 
 RSpec::Core::RakeTask.new(:spec)
 
